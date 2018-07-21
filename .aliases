@@ -1,0 +1,28 @@
+#if [ -f /usr/bin/grc ]; then
+alias ping="grc --colour=auto ping"
+alias traceroute="grc --colour=auto traceroute"
+alias make="grc --colour=auto make"
+alias diff="grc --colour=auto diff"
+alias cvs="grc --colour=auto cvs"
+alias netstat="grc --colour=auto netstat"
+alias ping="grc --colour=auto ping"
+alias traceroute="grc --colour=auto traceroute"
+alias make="grc --colour=auto make"
+alias diff="grc --colour=auto diff"
+alias cvs="grc --colour=auto cvs"
+alias netstat="grc --colour=auto netstat"
+alias grca="grc --colour=auto"
+alias ll="grca ls --color=force -l"
+alias ccal="grca cal"
+#for c in ping traceroute make diff last cvs netstat ifconfig uptime vmstat iostat df mount uname ps route lsmod wher
+#  alias ${c}="grca ${c}"
+#done
+#fi
+
+alias gs='git status '
+alias ga='git add '
+alias gb='git branch '
+alias gc='git commit'
+alias gd='git diff'
+alias go='git checkout '
+alias gl='git hist'
